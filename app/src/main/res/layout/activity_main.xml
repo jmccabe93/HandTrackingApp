@@ -11,7 +11,36 @@
     tools:context="com.example.handtrackingapp.MainActivity">
 
     <TextView
+        android:text="Buttons for Bluetooth LED Test"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:id="@+id/labelButton"
+        android:layout_marginTop="57dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="ON"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/labelButton"
+        android:layout_alignLeft="@+id/labelButton"
+        android:layout_alignStart="@+id/labelButton"
+        android:layout_marginTop="39dp"
+        android:id="@+id/buttonOn"
+        android:layout_alignRight="@+id/labelButton"
+        android:layout_alignEnd="@+id/labelButton" />
+
+    <Button
+        android:text="OFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonOn"
+        android:layout_alignLeft="@+id/buttonOn"
+        android:layout_alignStart="@+id/buttonOn"
+        android:layout_marginTop="31dp"
+        android:id="@+id/buttonOff"
+        android:layout_alignRight="@+id/buttonOn"
+        android:layout_alignEnd="@+id/buttonOn" />
+
 </RelativeLayout>
